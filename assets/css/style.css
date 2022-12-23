@@ -1,0 +1,85 @@
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* nav-bar text */
+@font-face {
+    font-family: "Helvetica Neue LT Std Nav";
+    src: url('./assets/fonts/HelveticaNeueLTStd/HelveticaNeueLTStd-MdCn.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/* nav-bar small logo text */
+@font-face {
+    font-family: "Helvetica Neue LT Std";
+    src: url('./assets/fonts/HelveticaNeueLTStd/HelveticaNeueLTStd-BlkCn.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }  
+
+#nav-bar, #nav-list {
+    display: flex;
+    position: relative;
+}
+
+#large-color-logo {
+    position: absolute;
+    top: 10px;
+    left: 10%
+}
+
+#nav-list-container {
+    position: absolute;
+    top: 90px; left: 20%;
+    width: 60%;
+}
+
+ul {
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+#nav-list {
+    justify-content: space-between;
+}
+
+#nav-list li {
+    font-family: "Helvetica Neue LT Std Nav", sans-serif;
+    color:dodgerblue;
+}
+
+#small-nav-logo {
+    position: absolute;
+    top: 0px; left: 80%;
+}
+
+#small-nav-logo-background {
+    position: absolute;
+    top: 0px; right: 0px;
+}
+
+#graphic-small-nav-logo {
+    position: absolute;
+    top: 5px; left: 10px;
+}
+
+#small-nav-logo-white-line {
+    position: absolute;
+    top:42px; left:0;
+}
+
+#small-nav-logo-text {
+    position: absolute;
+    top:42px;
+    font-family: "Helvetica Neue LT Std", sans-serif;
+    font-size: .4em;
+    font-weight: 400;
+    color:white;
+
+}
