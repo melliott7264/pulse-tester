@@ -84,32 +84,7 @@ ul {
 
 #small-nav-logo {
     position: absolute;
-    top: 0px; left: 90%;
-}
-
-#small-nav-logo-background {
-    position: absolute;
-    top: 0px; right: 0px;
-}
-
-#graphic-small-nav-logo {
-    position: absolute;
-    top: 5px; left: 10px;
-}
-
-#small-nav-logo-white-line {
-    position: absolute;
-    top:42px; left:0;
-}
-
-#small-nav-logo-text {
-    position: absolute;
-    top:42px;
-    font-family: "Helvetica Neue LT Std", sans-serif;
-    font-size: .4em;
-    font-weight: 400;
-    color:white;
-
+    top: 0px; left: 86%;
 }
 
 #background-video {
