@@ -1,4 +1,5 @@
 body {
+    max-width: 1400px;
     position: static;
     box-sizing: border-box;
     margin: 0px;
@@ -56,7 +57,7 @@ main {
 
 #hero {
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 80vh;
     height: auto;
 }
@@ -69,7 +70,7 @@ main {
 
 #nav-list-container {
     position: relative;
-    top: 90px; left: 20%;
+    top: 80px; left: 20%;
     width: 70%;
 }
 
@@ -88,12 +89,12 @@ ul {
 #nav-list li {
     font-family: "Helvetica Neue LT Std Nav", sans-serif;
     color:#3585b7;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 #small-nav-logo {
     position: absolute;
-    top: 0px; left: 86%;
+    top: 0px; left: 85.5%;
 }
 
 #background-video {
@@ -106,34 +107,23 @@ ul {
     z-index: -1;
 }
 
-/* #hero-image {
-    width: 100%;
-    height: 80%;
-    object-fit: cover;
-    position: relative;
-    left:0;
-    top:0;
-    opacity: 80%;
-    z-index: 0;
-} */
-
 #global-logo {
     position: absolute;
-    top: 25%;
+    top: 21%;
     left: 55%;
     opacity: 80%;
 }
 
 #conference-date {
     position: absolute;
-    top:54%;
+    top:52%;
     left: 14%; 
 }
 
 #conference-date-text {
     font-family: "Helvetica Neue LT Std Date", sans-serif;
     color: white;
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 
 #tax-trends {
@@ -147,7 +137,7 @@ ul {
     font-family: "Helvetica Neue LT Std Scroll", sans-serif;
     position: absolute;
     top: 90%;
-    left: 44%;
+    left: 43%;
     color: white;
 }
 
@@ -157,14 +147,55 @@ ul {
     left: 50%;
 }
 
-#about, #what-we-do-container {
+#about {
     width: 65%;
     margin:auto;
     padding: 1em 0em;
 }
 
+#about {
+    font-family: "Helvetica Neue LT Std Scroll", sans-serif;
+    font-size: 1.5em;
+}
+
+
 #rule {
-    color:#4e8abe;
-    width: 100vw;
-    height: 10px;
+    border: solid 5px #4e8abe;
+    width: 100%;
+}
+
+#what-we-do-container {
+    background-image: url("../images/ThinkstockPhotos-468759872\ \(1\).png");
+    width: 100%;
+    height: 675px;
+    object-fit: cover;
+    position: relative;
+    left:0;
+    top:0;
+    z-index: -1;
+}
+
+#what-we-do {
+    position: absolute;
+    width: 27%;
+    top: 25%;
+    left: 16%;
+}
+
+#bar-behind {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    top: 20%;
+    left: 0;
+    z-index: 0;
+    opacity: 80%;
+    background-color: #cccccc;
+}
+
+#do-graphic {
+    position: absolute;
+    top: 7%;
+    left: 45%;
+    float: right:
 }
