@@ -24,6 +24,14 @@ body {
     font-weight: normal;
     font-style: normal;
   }  
+/* Hero conference date text */
+@font-face {
+    font-family: "Helvetica Neue LT Std Date";
+    src: url('./assets/fonts/HelveticaNeueLTStd/HelveticaNeueLTStd-BdCn.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  } 
+
 /* Hero scroll down text */
 @font-face {
     font-family: "Helvetica Neue LT Std Scroll";
@@ -80,6 +88,7 @@ ul {
 #nav-list li {
     font-family: "Helvetica Neue LT Std Nav", sans-serif;
     color:#3585b7;
+    font-size: 1em;
 }
 
 #small-nav-logo {
@@ -97,10 +106,41 @@ ul {
     z-index: -1;
 }
 
+/* #hero-image {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    position: relative;
+    left:0;
+    top:0;
+    opacity: 80%;
+    z-index: 0;
+} */
+
 #global-logo {
     position: absolute;
     top: 25%;
     left: 55%;
+    opacity: 80%;
+}
+
+#conference-date {
+    position: absolute;
+    top:54%;
+    left: 14%; 
+}
+
+#conference-date-text {
+    font-family: "Helvetica Neue LT Std Date", sans-serif;
+    color: white;
+    font-size: 2.5em;
+}
+
+#tax-trends {
+    position: absolute;
+    top:75%;
+    left: 5%;
+
 }
 
 #scroll-down-text {
