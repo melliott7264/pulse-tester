@@ -82,16 +82,20 @@ main {
     width: 67%;
 }
 
-#nav-list {
-    position: absolute;
-    bottom: 25%;
-    width: 100%;
+ul {
     list-style-type: none;
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 0px;
+}
+
+#nav-list {
+    position: absolute;
+    bottom: 25%;
+    width: 100%;
+   
 }
 #nav-list {
     justify-content: space-between;
@@ -223,7 +227,57 @@ main {
 
 footer {
     position: relative;
+    width: 100%;
+    background-color: #00244a;
+    font-family: "Helvetica Neue LT Std Scroll", sans-serif;
+    color: white;
+    font-size: 1em;
 }
+
+#footer-container {
+    display: flex;
+    position: relative;
+    font-size: 1em;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+#footer-logo{
+    position: relative;
+    width: 8%;
+    height: auto;
+    left: 10%;
+    top: 10%;
+}
+
+#footer-address{
+    position: absolute;
+    left: 20%;
+   padding-top:  3%;
+   width: 30%;
+}
+
+#footer-social {
+    position: absolute;
+    right: 10%;
+    padding-top: 3%;
+}
+
+#social-logos {
+    width: 100%;
+    height: auto;
+}
+
+footer p {
+    position:relative;
+    left: 10%;
+    padding-bottom: 20px;
+    width: 80%;
+}
+
+
+
 
 @media screen and (max-width: 1200px) {
     h1 {
