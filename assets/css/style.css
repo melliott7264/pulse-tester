@@ -179,25 +179,22 @@ ul {
   font-size: 1.3em;
 }
 
-#rule {
-  border: solid 5px #4e8abe;
-  width: 99.3%;
+hr {
+  margin: 0;
 }
 
 #what-we-do-container {
   position: relative;
+  display: flex;
   z-index: -1;
   width: 100%;
   height: auto;
-  /* object-fit: contain;
-  overflow: auto; */
 }
 
 #what-we-do-background {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
-
 
 #bar-behind {
   position: absolute;
@@ -255,7 +252,6 @@ footer {
 }
 
 #footer-address {
-
   position: absolute;
   left: 20%;
   padding-top: 3%;
@@ -293,13 +289,12 @@ footer p {
   }
 
   #what-we-do {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   footer {
-    font-size: .8em;
+    font-size: 0.8em;
   }
-
 }
 
 @media screen and (max-width: 900px) {
@@ -316,15 +311,15 @@ footer p {
   }
 
   #what-we-do {
-    font-size: .7em;
+    font-size: 0.9em;
   }
 
   footer {
-    font-size: .6em;
+    font-size: 0.6em;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   h1 {
     font-size: 1.2em;
   }
@@ -337,12 +332,34 @@ footer p {
     font-size: 0.8em;
   }
 
- #what-we-do {
+  #what-we-do {
     font-size: 0.5em;
   }
 
   footer {
-    font-size: .4em;
+    font-size: 0.4em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1em;
+  }
+
+  #nav-list li {
+    font-size: 0.1em;
+  }
+
+  #about {
+    font-size: 0.5em;
+  }
+
+  #what-we-do {
+    font-size: 0.4em;
+  }
+
+  footer {
+    font-size: 0.2em;
   }
 }
 
@@ -360,11 +377,10 @@ footer p {
   }
 
   #what-we-do {
-    font-size: 0.2em;
+    font-size: 0.3em;
   }
 
   footer {
-    font-size: .2em;
+    font-size: 0.1em;
   }
-
 }
