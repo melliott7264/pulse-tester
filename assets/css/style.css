@@ -185,7 +185,7 @@ hr {
 
 #what-we-do-container {
   position: relative;
-  display: flex;
+  margin-bottom: 0;
   z-index: -1;
   width: 100%;
   height: auto;
