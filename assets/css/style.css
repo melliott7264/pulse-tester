@@ -1,4 +1,5 @@
 body {
+  /* limiting page width based on What We Do background graphic in Photoshop mockup */
   max-width: 1400px;
   position: static;
   box-sizing: border-box;
@@ -14,6 +15,8 @@ h1 {
   font-size: 2em;
 }
 
+/* font selection based on fonts specified in Photoshop mockup - don't necessarily look like fonts in mockup */ 
+
 /* nav-bar text */
 @font-face {
   font-family: "Helvetica Neue LT Std Nav";
@@ -23,26 +26,9 @@ h1 {
   font-style: normal;
 }
 
-/* nav-bar small logo text */
+/* text in About and What We Do sections as well as footer */
 @font-face {
   font-family: "Helvetica Neue LT Std";
-  src: url("./assets/fonts/HelveticaNeueLTStd/HelveticaNeueLTStd-BlkCn.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-/* Hero conference date text */
-@font-face {
-  font-family: "Helvetica Neue LT Std Date";
-  src: url("./assets/fonts/HelveticaNeueLTStd/HelveticaNeueLTStd-BdCn.otf")
-    format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Hero scroll down text */
-@font-face {
-  font-family: "Helvetica Neue LT Std Scroll";
   src: url("./assets/fonts/HelveticaNeueLTStd/HelveticaNeueLTStd-LtCn.otf")
     format("opentype");
   font-weight: normal;
@@ -84,7 +70,7 @@ main {
 #nav-list-container {
   position: relative;
   left: 12%;
-  width: 67%;
+  width: 68.5%;
 }
 
 ul {
@@ -114,7 +100,7 @@ ul {
 #graphic-small-nav-logo {
   position: absolute;
   top: 0px;
-  left: 84%;
+  right: 10%;
   width: 5%;
   height: auto;
 }
@@ -175,7 +161,7 @@ ul {
 }
 
 #about {
-  font-family: "Helvetica Neue LT Std Scroll", sans-serif;
+  font-family: "Helvetica Neue LT Std", sans-serif;
   font-size: 1.3em;
 }
 
@@ -208,7 +194,7 @@ hr {
 }
 
 #what-we-do {
-  font-family: "Helvetica Neue LT Std Scroll", sans-serif;
+  font-family: "Helvetica Neue LT Std", sans-serif;
   font-size: 1.3em;
   position: relative;
   width: 31%;
@@ -230,7 +216,7 @@ footer {
   position: relative;
   width: 100%;
   background-color: #00244a;
-  font-family: "Helvetica Neue LT Std Scroll", sans-serif;
+  font-family: "Helvetica Neue LT Std", sans-serif;
   color: white;
   font-size: 1em;
 }
@@ -245,7 +231,7 @@ footer {
 
 #footer-logo {
   position: relative;
-  width: 8%;
+  max-width: 8%;
   height: auto;
   left: 10%;
   top: 10%;
@@ -255,6 +241,7 @@ footer {
   position: absolute;
   left: 20%;
   padding-top: 3%;
+  padding-left: 3%;
   width: 30%;
 }
 
@@ -315,7 +302,11 @@ footer p {
   }
 
   footer {
-    font-size: 0.6em;
+    font-size: 0.7em;
+  }
+
+  #footer-logo {
+    max-width: 9%;
   }
 }
 
@@ -337,7 +328,11 @@ footer p {
   }
 
   footer {
-    font-size: 0.4em;
+    font-size: 0.6em;
+  }
+
+  #footer-logo {
+    max-width: 10%;
   }
 }
 
@@ -359,7 +354,11 @@ footer p {
   }
 
   footer {
-    font-size: 0.2em;
+    font-size: 0.3em;
+  }
+
+  #footer-logo {
+    max-width: 11%;
   }
 }
 
@@ -382,5 +381,9 @@ footer p {
 
   footer {
     font-size: 0.1em;
+  }
+
+  #footer-logo {
+    max-width: 12%;
   }
 }
