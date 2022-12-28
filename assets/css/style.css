@@ -15,7 +15,7 @@ h1 {
   font-size: 2em;
 }
 
-/* font selection based on fonts specified in Photoshop mockup - don't necessarily look like fonts in mockup */ 
+/* font selection based on fonts specified in Photoshop mockup - don't necessarily look like fonts in mockup */
 
 /* nav-bar text */
 @font-face {
@@ -170,24 +170,18 @@ hr {
 }
 
 #what-we-do-container {
+  background-image: url("../images/ThinkstockPhotos-468759872\ \(1\).png");
   position: relative;
-  margin-bottom: 0;
   z-index: -1;
   width: 100%;
   height: auto;
 }
 
-#what-we-do-background {
-  width: 100%;
-  height: auto;
-}
-
 #bar-behind {
-  position: absolute;
+  position: relative;
   width: 100%;
-  height: 60%;
-  top: 20%;
-  left: 0;
+  padding-top: 1%;
+  padding-bottom: 1%;
   z-index: 0;
   opacity: 80%;
   background-color: #cccccc;
@@ -207,7 +201,6 @@ hr {
   position: absolute;
   width: 40%;
   height: auto;
-  top: 8%;
   left: 45%;
   z-index: 1;
 }
