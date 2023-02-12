@@ -1,1 +1,0 @@
-This is a mockup test for Pulse Creative.   It has been done using HTML and CSS using a Photoshop mockup as a basis.  
